@@ -14,5 +14,5 @@ public class Tips {
 
     // todo:message
 
-    
+
 }
