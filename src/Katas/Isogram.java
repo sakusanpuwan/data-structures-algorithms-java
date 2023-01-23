@@ -1,11 +1,8 @@
 package Katas;
 
-import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.List;
-import java.util.Stack;
 
-public class isogram {
+public class Isogram {
     public static boolean  isIsogram(String str) {
         // For all characters in str check if any repeating,consecutive or non-consecutive
         boolean result = true;
