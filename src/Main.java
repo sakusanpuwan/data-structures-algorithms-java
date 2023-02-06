@@ -11,6 +11,8 @@ public class Main {
         System.out.println(Math.sqrt(sq));
         System.out.println(root);
 
+        System.out.println(Character.isDigit('3'));
+
     }
 
 
