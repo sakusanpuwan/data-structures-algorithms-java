@@ -1,17 +1,10 @@
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
+import Katas.RowSumOddNumbers;
 
 public class Main {
     public static void main(String[] args) {
 
-        long sq = 26;
-        long root = (long) Math.sqrt(sq);
-
-        System.out.println(Math.sqrt(sq));
-        System.out.println(root);
-
-        System.out.println(Character.isDigit('3'));
+//        int result = RowSumOddNumbers.rowSumOddNumbers(5);
+        System.out.println(3^2);
 
     }
 
