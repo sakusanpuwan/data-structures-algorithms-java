@@ -3,7 +3,7 @@ package LeetCode;
 import java.util.HashMap;
 import java.util.Map;
 
-public class Isomorphic {
+public class Isomorphic205 {
     public boolean isIsomorphic(String s, String t){
 
         Map<Character,Character> hashMap = new HashMap<>();

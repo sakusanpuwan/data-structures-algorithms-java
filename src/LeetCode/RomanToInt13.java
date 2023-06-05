@@ -1,6 +1,6 @@
 package LeetCode;
 
-public class RomanToInt {
+public class RomanToInt13 {
 
     private int translate(char c){
         switch (c){
