@@ -1,7 +1,8 @@
 package Test;
 import Katas.Palindrome;
 import org.junit.Test;
-import static org.junit.Assert.assertEquals;
+
+import static org.junit.Assert.*;
 
 public class PalindromeTest {
 
@@ -12,12 +13,12 @@ public class PalindromeTest {
 
     @Test
     public void testIfFalse(){
-        assertEquals(false,Palindrome.isPalindrome("hello"));
+        assertFalse(Palindrome.isPalindrome("hello"));
     }
 
     @Test
     public void testCase(){
-        assertEquals(true,Palindrome.isPalindrome("Tenet"));
+        assertTrue(Palindrome.isPalindrome("Tenet"));
     }
 
     @Test
@@ -26,8 +27,12 @@ public class PalindromeTest {
     }
 
     @Test
-    public void testPhrase(){assertEquals(true,Palindrome.isPalindrome("race car"));}
+    public void testPhrase(){
+        assertEquals(true,Palindrome.isPalindrome("race car"));
+    }
 
     @Test
-    public void testPhraseFalse(){assertEquals(false,Palindrome.isPalindrome("hello world"));}
+    public void testPhraseFalse(){
+        assertEquals(false,Palindrome.isPalindrome("hello world"));
+    }
 }
