@@ -1,7 +1,6 @@
 package Katas;
 
 import java.util.HashMap;
-import java.util.Map;
 
 public class DuplicateEncoder {
     public static String encode(String word){

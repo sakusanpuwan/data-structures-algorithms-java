@@ -1,5 +1,4 @@
-package Test;
-import Katas.Palindrome;
+package Katas;
 import org.junit.Test;
 
 import static org.junit.Assert.*;

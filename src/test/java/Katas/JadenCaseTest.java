@@ -1,11 +1,9 @@
-package Test;
+package Katas;
+
+import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertNotNull;
 import static org.junit.Assert.assertNull;
-
-import Katas.JadenCase;
-import org.junit.Test;
 
 public class JadenCaseTest {
 

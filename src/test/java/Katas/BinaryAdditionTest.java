@@ -1,9 +1,10 @@
-package Test;
+package Katas;
 
-import Katas.BinaryAddition;
+
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvSource;
+
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class BinaryAdditionTest {

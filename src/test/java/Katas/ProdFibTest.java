@@ -1,9 +1,8 @@
-package Test;
+package Katas;
 
-import static org.junit.jupiter.api.Assertions.*;
-
-import Katas.ProdFib;
 import org.junit.Test;
+
+import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 
 
 public class ProdFibTest {

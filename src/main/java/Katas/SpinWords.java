@@ -1,7 +1,5 @@
 package Katas;
 
-import java.util.ArrayList;
-
 public class SpinWords {
 
     public String spinWords(String sentence){

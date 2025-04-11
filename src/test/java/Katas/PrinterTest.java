@@ -1,8 +1,8 @@
-package Test;
-import static org.junit.Assert.*;
+package Katas;
 
-import Katas.Printer;
 import org.junit.Test;
+
+import static org.junit.Assert.assertEquals;
 
 
 public class PrinterTest {

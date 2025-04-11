@@ -1,6 +1,5 @@
 package Katas;
 
-import static org.junit.jupiter.api.Assertions.*;
 import org.junit.Test;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertDoesNotThrow;

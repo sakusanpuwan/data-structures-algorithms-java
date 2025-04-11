@@ -1,7 +1,5 @@
 package Katas;
 
-import java.util.ArrayList;
-
 public class JadenCase {
     public String toJadenCase(String phrase){
 
