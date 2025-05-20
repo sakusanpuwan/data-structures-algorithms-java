@@ -1,4 +1,4 @@
-package katas.sevenKYU;
+package katas.sevenKyu;
 
 import java.util.List;
 import java.util.stream.Collectors;

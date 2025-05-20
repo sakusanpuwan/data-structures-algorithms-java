@@ -1,6 +1,6 @@
 package katas;
 
-import katas.sevenKYU.DescendingOrder;
+import katas.sevenKyu.DescendingOrder;
 import org.junit.Test;
 import static org.junit.Assert.assertEquals;
 

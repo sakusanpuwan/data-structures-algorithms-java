@@ -1,6 +1,6 @@
 package katas;
 
-import katas.sevenKYU.VowelCount;
+import katas.sevenKyu.VowelCount;
 import org.junit.Test;
 import static org.junit.Assert.assertEquals;
 

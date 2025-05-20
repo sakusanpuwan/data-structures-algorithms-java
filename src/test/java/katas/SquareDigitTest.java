@@ -1,6 +1,6 @@
 package katas;
 
-import katas.sevenKYU.SquareDigit;
+import katas.sevenKyu.SquareDigit;
 import org.junit.Test;
 import static org.junit.Assert.assertEquals;
 

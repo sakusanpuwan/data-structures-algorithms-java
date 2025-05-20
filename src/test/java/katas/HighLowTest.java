@@ -1,6 +1,6 @@
 package katas;
 
-import katas.sevenKYU.HighLow;
+import katas.sevenKyu.HighLow;
 import org.junit.Test;
 
 import static junit.framework.TestCase.fail;
