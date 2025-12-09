@@ -1,8 +1,9 @@
 package katas;
 
 import org.junit.Test;
-import static org.junit.jupiter.api.Assertions.assertEquals;
+
 import static org.junit.jupiter.api.Assertions.assertDoesNotThrow;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class StringIncrementerTest {
     private static void doTest(String str, String expected) {

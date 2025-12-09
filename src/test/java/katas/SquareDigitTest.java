@@ -2,6 +2,7 @@ package katas;
 
 import katas.sevenKyu.SquareDigit;
 import org.junit.Test;
+
 import static org.junit.Assert.assertEquals;
 
 public class SquareDigitTest {

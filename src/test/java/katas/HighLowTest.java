@@ -3,8 +3,7 @@ package katas;
 import katas.sevenKyu.HighLow;
 import org.junit.Test;
 
-import static junit.framework.TestCase.fail;
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
 public class HighLowTest {
     @Test
     public void test1() {
