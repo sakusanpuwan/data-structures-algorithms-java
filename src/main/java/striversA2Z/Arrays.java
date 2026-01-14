@@ -1,7 +1,9 @@
 package striversA2Z;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 public class Arrays {
 
@@ -260,5 +262,55 @@ public class Arrays {
         }
 
         return maxCount;
+    }
+
+    /*
+    Find the number that appears once, and the other numbers twice
+    Problem Statement: Given a non-empty array of integers arr, every element appears twice except for one. Find that single one.
+     */
+    public static int findNumberThatAppearsOnce(int[] array) {
+        HashMap<Integer, Integer> countMap = new HashMap<>();
+
+        for (int integer: array) {
+            int count = countMap.getOrDefault(integer, 0);
+            count++;
+            countMap.put(integer, count);
+        }
+
+        for (Map.Entry<Integer, Integer> entry : countMap.entrySet()) {
+            Integer integer = entry.getKey();
+            Integer count = entry.getValue();
+
+            if (count == 1) {
+                return integer;
+            }
+        }
+
+        return -1;
+    }
+
+    /*
+    Longest Subarray with given Sum K(Positives)
+    Problem Statement: Given an array nums of size n and an integer k, find the length of the longest sub-array that sums to k. If no such sub-array exists, return 0.
+     */
+    public static int longestSubarray(int[] array, int k) {
+        int startIndex = 0;
+        int endIndex = 0;
+        int length = 0;
+        int sum = 0;
+
+        while (endIndex < array.length) {
+            if (sum == k && (endIndex - startIndex) > length) {
+                length = endIndex - startIndex;
+            } else if (sum > k) {
+                sum = sum - array[startIndex];
+                startIndex++;
+            } else {
+                sum = sum + array[endIndex];
+                endIndex++;
+            }
+        }
+
+        return length;
     }
 }
